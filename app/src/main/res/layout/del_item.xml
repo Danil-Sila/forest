@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvNumDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:text="№Дел." />
+
+    <TextView
+        android:id="@+id/tvPorodaDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Порода" />
+
+    <TextView
+        android:id="@+id/tvKolDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        tools:text="К.дел" />
+
+    <TextView
+        android:id="@+id/tvKolDr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        tools:text="К.др" />
+
+    <TextView
+        android:id="@+id/tvVDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        tools:text="Vдел" />
+
+    <TextView
+        android:id="@+id/tvVDr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp"
+        tools:text="Vдр" />
+
+    <TextView
+        android:id="@+id/tvItogV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Итог" />
+</LinearLayout>
